@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Coffe Corner</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="caixa-video">
+        <video src="videos/coffe.mp4" loop muted autoplay class="video-fundo"></video>
+        <divc class="mascara"></divc>
+    </div>
+
+    <header>
+        <div>
+            <section>
+                <a href="#">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+
+                <nav class hover>
+                    <a href="#">Home</a>
+                    <a href="#"> Sobre</a>
+                    <a href="#" onclick="MostrarModal()">Endereço</a>
+                </nav>
+            </section>
+        </div>
+    </header>
+
+
+    <div>
+        <section class="principal">
+            <div>
+                <h1>
+                    Coffe Corner o sabor que Apaixona
+                </h1>
+                <p>
+                    Venha se teletransportar para um mundo repleto
+                </p>
+                <p>
+                    de Sabores e Aromas irresistíveis
+                </p>
+                <a class="botao-link" href="#"> Pague o seu agora</a>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <h2 class="titulo">
+                <span>Sobre</span> Nós
+            </h2>
+            <div class="conteiner">
+                <div class="img">
+                    <img src="img/about-img.jpeg">
+                </div>
+                <div class="texto">
+                    <h3>
+                        Em 2024 o Coffe Corner ganhou pela<b> Sétima Consecutiva </b> o prêmio do melhor café
+                        brasileiro.
+                    </h3>
+                    <h3>
+                        O coffe Corner vem ganhando cada vez mais os corações dos brasileiros, com seu sabor único, onde
+                        se vive uma nova sensação a cada xícara dde café.
+                    </h3>
+                    <h3>
+                        Venha apaixonar-se a cada gole.
+                    </h3>
+                    <a class="botao-link" href="#">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal">
+            <h4 class="titulo">
+                Nosso <span> Endereço </span>
+            </h4>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29634.5966615212!2d-49.63003207613049!3d-21.806386472828006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1730517663795!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="EsconderModal()"></div>
+
+        <script src="./script.js"></script>
+
+</body>
+
+</html>
